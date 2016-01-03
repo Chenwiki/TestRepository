@@ -7,4 +7,4 @@ Makefile
 *.o
 *.a
 stamp-h1
-*.obj
+*.obj*.pch*.idb
