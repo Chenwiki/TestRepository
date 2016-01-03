@@ -1,0 +1,17 @@
+﻿Build started 2016/1/2 15:20:46.
+     1>Project "D:\Cgywin\home\Wiki\VS_Proj\PDFTest\PDFTest\PDFTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PDFTest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PDFTest.cpp
+         PDFTest.cpp
+     1>d:\cgywin\home\wiki\vs_proj\pdftest\pdftest\pdftest.cpp(82): warning C4244: 'argument' : conversion from 'HPDF_UINT' to 'HPDF_REAL', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Cgywin\home\Wiki\VS_Proj\PDFTest\Debug\PDFTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Cgywin\home\Wiki\VS_Proj\PDFTest\Debug\PDFTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Cgywin\home\Wiki\VS_Proj\PDFTest\Debug\PDFTest.lib" /MACHINE:X86 Debug\PDFTest.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         PDFTest.vcxproj -> D:\Cgywin\home\Wiki\VS_Proj\PDFTest\Debug\PDFTest.exe
+     1>Done Building Project "D:\Cgywin\home\Wiki\VS_Proj\PDFTest\PDFTest\PDFTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21
